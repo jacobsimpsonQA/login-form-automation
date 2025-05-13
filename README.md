@@ -14,3 +14,8 @@ It opens a demo login page, enters test credentials, and verifies successful log
 2. Install dependencies:  
    ```bash
    pip3 install selenium
+
+## Tests Included
+- ✅ `test_login.py`: Valid login using correct credentials
+- ❌ `test_failed_login.py`: Login attempt with incorrect password, expects error message
+
