@@ -23,9 +23,13 @@ It opens a demo login page, enters test credentials, and verifies successful log
    ```
 
 ## ✅ Tests Included
-- `test_login.py`: Valid login using correct credentials  
-- `test_failed_login.py`: Login attempt with incorrect password, expects error message  
-- `test_blank_login.py`: Submits blank username and password fields, expects validation error
+
+- `test_login_suite.py`: Unified test suite that runs all three scenarios below:
+  - `test_valid_login()`: Valid login using correct credentials
+  - `test_invalid_password()`: Login attempt with incorrect password
+  - `test_blank_login()`: Login attempt with empty username and password fields
+
+(You can still run the individual test files if preferred.)
 
 ## Author
 Jacob Simpson – QA Engineer  
