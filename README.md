@@ -33,6 +33,16 @@ It opens a demo login page, enters test credentials, and verifies successful log
 
 (You can still run the individual test files if preferred.)
 
+## 📘 What I’ve Learned
+
+- How to write and organize UI automation scripts using Python and Selenium
+- How to handle edge cases like invalid credentials and empty input fields
+- How to use assertions to validate expected vs. actual outcomes
+- How to create reusable functions for cleaner, scalable test code
+- How to structure a basic QA test suite using standalone scripts
+- How to push, document, and share code publicly using Git and GitHub
+
+
 ## Author
 Jacob Simpson – QA Engineer  
 [github.com/jacobsimpsonQA](https://github.com/jacobsimpsonQA)
