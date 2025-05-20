@@ -29,6 +29,8 @@ It opens a demo login page, enters test credentials, and verifies successful log
   - `test_invalid_password()`: Login attempt with incorrect password
   - `test_blank_login()`: Login attempt with empty username and password fields
   - `test_empty_password.py`: Valid username with empty password, expects password validation error
+  - `test_empty_username.py`: Login attempt with valid password and blank username, expects username error
+
 
 
 (You can still run the individual test files if preferred.)
